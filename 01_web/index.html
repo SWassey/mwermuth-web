@@ -1,196 +1,38 @@
-<!DOCTYPE HTML>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>MWermuth.com - Marcus Wermuth</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MW - Marcus Wermuth - Mobile and Web">
-    <meta name="author" content="Marcus Wermuth">
-    <!-- styles -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="http://get.gridsetapp.com/6182/" rel="stylesheet" />
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script type="text/javascript">
+<!DOCTYPE html>
+<html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<head>
+  <meta charset="UTF-8" />
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-30482227-1']);
-      _gaq.push(['_setDomainName', 'mwermuth.com']);
-      _gaq.push(['_trackPageview']);
+  <!-- Set the viewport width to device width for mobile -->
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <title>MWermuth</title>
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-  </head>
-  <body>
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button"class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="index.html">MWermuth<span style="color:#4efc89;">.</span></a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li class="">
-                <a href="index.html">Home<span style="color:#4efc89;">.</span></a>
-              </li>
-              <li class="">
-                <a href="#about">About<span style="color:#4efc89;">.</span></a>
-              </li>
-              <li class="">
-                <a href="#work">Work/Projects<span style="color:#4efc89;">.</span></a>
-              </li>
-              <li class="">
-                <a href="#contact">Contact<span style="color:#4efc89;">.</span></a>
-              </li>              
+</head>
+<body>
+	<header>
+		<img id="flag" src="assets/img/flag.png" alt="MW">
+		<div id="hey" class="fade-in one">
+			Hey there.
+		</div>
+		<div id="hey" class="fade-in two">
+			My name is Marcus Wermuth.
+		</div>
+	</header>
 
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="da2-da5">
-      <header class="jumbotron masthead">
-        <div class="inner">
-
-
-          <div id="cat">CAT.NO.: 000.01.01</div>
-          <hr class="soften">
-
-
-          <div class="row">    
-            <div class="da1">
-              <h1>MARCUS</h1>
-            </div>
-          </div>
-          <div class="row">
-            <div class="da1-da2">
-              <h1>WERMUTH
-              <img src="img/point.png" alt="mwermuth point"></h1>
-            </div>
-          </div>
-          <hr class="soften">
-        </div>
-      </header>
-
-
-
-      <div class="row" id="about">
-        <div class="da1-all">
-          <h2>MOBILE APPLICATION AND WEB DEVELOPMENT.</h2>
-          <h2>TECHNOLOGY CONSULTING.</h2>
-          <div class="row">
-            <div class="da1-da3">
-              <blockquote>Primarly I am an iOS and web developer, but I try to solve every task which is handed to me. I also did some Android programming, and lately I am branching into Mac development, too. I become very excited and passionate about every interesting project I am working on and cannot let go until it is done.<br/> In my spare time I am enjoying good coffee, cannot resist my obsession of learning new things.</blockquote>
-            </div>
-            </div>
-            
-            <div class="row">
-                
-              <div class="da4-da5">
-              <blockquote style="color:grey;">Hauptsächlich beschäftige ich mich mit iOS- und Web-Programmierung, ich versuche aber jede Aufgabe die mir ausgehändigt wird zu lösen, egal ob Android-Programmierung oder in letzter Zeit auch Mac Entwicklung. Ich kann mich sehr für interessante Projekte an denen ich arbeite begeistern und lasse nicht los bevor sie vollendet sind.<br/> In meiner Freizeit genieße ich sehr gern guten Kaffee und kann meiner Besessenheit neue Dinge zu lernen absolut nicht widerstehen.
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-      <div id="cat">CAT.NO.: 000.02.01</div>
-      <hr class="soften">
-
-
-      <div class="row" id="work">
-        <div class="da1">
-          <h2>WORK</h2>
-          <h2>PROJECTS.</h2>
-        </div>
-      </div>
-
-      <hr class="soften">        
-      
-      <div class="row" id="projects">
-        <ul class="thumbnails">
-
-         <li>
-          <div class="thumbnail " >
-            <img src="img/cz-app2.png" alt="Club Zooma mobile Application" class="">
-            <div class="caption">
-              <h4>Club Zooma mobile Application (iOS/Android)</h4>
-              <p> Design: <a href="http://rixon-grfx.com/"> rixon-grfx </a> | Development: mwermuth.com </p>
-            </div>
-          </div>
-         </li>
-
-         <li>
-          <div class="thumbnail ">
-            <img src="img/kitd2.png" alt="KIT digital iPad Application" class="">
-            <div class="caption">
-              <h4>KIT digital In-house Application (iOS/iPad)</h4>
-              <p> Design: <a href="http://oberhaeuser.info/"> oberhaeuser.info </a> | Development: mwermuth.com </p>
-              <br/>
-            </div>
-
-          </div>
-          </li>
-
-          <li>
-          <div class="thumbnail ">
-            <img src="img/hsv-app.png" alt="HSV Facebook Application" class="">
-            <div class="caption">
-              <h4>HSV Facebook Application / Image Generator</h4>
-              <p> Design: <a href="http://mutabor.de/"> Mutabor Design GmbH </a> | Development: mwermuth.com </p>
-              <br/>
-            </div>
-
-          </div>
-         </li>
-
-        </ul>
-      </div>
-
-      <div id="cat">CAT.NO.: 000.03.01</div>
-      <hr class="soften">
-
-      <footer id="contact">
-        <h2>CONTACT.</h2>
-           <hr class="soften">
-           <div class="row" id="contact-details">
-             <div class="da1-da6">
-               <ul class="social">
-                 <li style="margin-right:20px;"><a class="mail" href="mailto:marcus@mwermuth.com"><img src="img/blog_dark.png">&nbsp;MAIL</a></li>
-                 <li style="margin-right:20px;"><a class="jabber" href="xmpp:marcus.wermuth@jabber.org"><img src="img/vcard_dark.png">&nbsp;JABBER</a></li>
-                 <li style="margin-right:20px;"><a class="fb" href="https://www.facebook.com/profile.php?id=1314870595"><img src="img/facebook_dark.png">&nbsp;FACEBOOK</a></li>
-                 <li><a class="twitter" href="http://twitter.com/denkminusfehler"><img src="img/twitter02_dark.png">&nbsp;TWITTER</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="da1-da2">
-                IMPRINT
-                <h4>Copyright © Marcus Wermuth</h4>
-                <h4>2012 All rights reserved.</h4>
-                <br/>
-                <br/>
-                <br/>                
-              </div>
-            </div>
-        </footer>
-
-
-    </div>
-
-    <!-- /container -->
-    <script src="http://get.gridsetapp.com/6182/overlay/"></script>
-
-  </body>
+	<section id="aboutme">
+		
+	</section>
+  
+	<section id="work">
+		
+	</section>
+	
+	<section id="contact">
+		
+	</section>
+	
+</body>
 </html>
-

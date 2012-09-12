@@ -1,0 +1,137 @@
+body {
+	min-width:900px;
+  font-family: "232MKSDRoundUltraLight","Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+	margin:0;
+}
+
+header{
+
+margin-left:auto;
+margin-right:auto;
+padding-top:100px;
+vertical-align:middle;
+background-color: #222222;
+height:500px;
+
+}
+
+#flag{
+display:block;
+margin-left:auto;
+margin-right:auto;
+vertical-align:middle;
+height:81px;
+width:124px;
+}
+
+#aboutme{
+background-color: #dddddd;
+height:750px;
+
+}
+
+#work{
+background-color: #222222;
+height:2500px;
+
+}
+
+#contact{
+background-color: #dddddd;
+height:450px;
+
+}
+
+#hey{
+
+font-size: 40px;
+font-weight: 100; 
+margin-left: auto;
+margin-right: auto;
+padding-top: 30px;
+text-align: center;
+
+}
+
+.fade-in{
+-webkit-animation-name: reset, fade-in;
+-webkit-animation-duration: 2s;
+-webkit-animation-timing-function: ease-out;
+-webkit-animation-iteration-count: 1;
+	
+-moz-animation-duration: 3s;
+-moz-animation-iteration-count: 1;
+-moz-animation-name: fade-in-content;
+-moz-animation-timing-function: ease-out;
+
+}
+
+.fade-in.one{
+	-webkit-animation-delay: 0, 0;
+	-moz-animation-delay: 0,0;
+}
+
+.fade-in.two{
+	-webkit-animation-delay: 0, 1s;
+	-moz-animation-delay: 0,1s;
+}
+
+
+
+@-webkit-keyframes reset {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 0;
+}
+}
+
+@-moz-keyframes reset {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 0;
+}
+}
+
+@-webkit-keyframes fade-in{
+	0%{
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fade-in{
+	0%{
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@font-face {
+font-family: '232MKSDRoundLight';
+src: url('232MKL.TTF');
+}
+
+@font-face {
+font-family: '232MKSDRoundUltraLight';
+src: url('232MKUL_.TTF');
+}
+
+@font-face {
+font-family: '232MKSUL';
+src: url('232MKSUL.TTF');
+}
